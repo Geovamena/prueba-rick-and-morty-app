@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+     
       <Header />
       <section id='main'>
         {planet && <Search planet={planet} setNumber={setNumber} numRandom={numRandom}  />}
