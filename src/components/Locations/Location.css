@@ -1,0 +1,29 @@
+
+.headerCards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2em;
+  overflow: hidden;
+  /* border: dashed black 1px; */
+  gap: 1em;
+}
+
+.planetName {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.planetType {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .planetType {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

@@ -1,0 +1,14 @@
+
+.input {
+  background-color: #27E1C1;
+  border-radius: 8px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 2em;
+  /* border: 1px dashed black; */
+}

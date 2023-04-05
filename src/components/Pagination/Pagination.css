@@ -1,0 +1,28 @@
+
+.numberPage {
+  border-radius: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: #27E1C1;
+}
+
+.pagination{
+  /* border: 1px dashed black; */
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+.pagination > input{
+width: 50px;
+border: none;
+font-size: 25px;
+font-weight: 600;
+color: var(--principal);
+text-align: center;
+}
+
+.btnNext:hover {
+  border-bottom: 1px solid #27e1c1;
+  box-shadow: 0 0 4px #27E1C1;
+}

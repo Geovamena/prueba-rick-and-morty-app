@@ -1,0 +1,21 @@
+
+#header {
+  height: 300px;
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F11%2Frick-and-morty-season-4-2000.jpg&q=60);
+  background-size: cover;
+  background-position: center;
+}
+
+#header:hover {
+  border-bottom: 1px solid #27e1c1;
+  box-shadow: 0 0 12px #27E1C1;
+  cursor: pointer;
+}
+
+#title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 20px;
+  margin-top: 24px;
+}
